@@ -1,2 +1,3 @@
-# asm_examples
-random asm examples for future reference
+yasm -f elf64 exit.asm
+ld -s -o exit exit.o
+./exit 
