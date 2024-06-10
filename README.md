@@ -1,6 +1,2 @@
-# asm_examples
-random arm assembly examples for future reference
-
-- assemble with nasm
-  - eg. "nasm -f elf32 -o hello.o hello.asm"
-- link, eg. "ld -m elf_i386 -o hello hello.o"
+nasm -f elf32 -o hello.o hello.asm
+ld -m elf_i386 -o hello hello.o
